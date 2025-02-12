@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1F1ADF2D42D21D00D92DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1ADE2D42D21D00D92DE4 /* AppDelegate.swift */; };
+		AA1F1AE12D42D21D00D92DE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AE02D42D21D00D92DE4 /* SceneDelegate.swift */; };
+		AA1F1AE32D42D21D00D92DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AE22D42D21D00D92DE4 /* ViewController.swift */; };
+		AA1F1AE62D42D21D00D92DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F1AE42D42D21D00D92DE4 /* Main.storyboard */; };
+		AA1F1AE82D42D21F00D92DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1F1AE72D42D21F00D92DE4 /* Assets.xcassets */; };
+		AA1F1AEB2D42D21F00D92DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1F1AE92D42D21F00D92DE4 /* LaunchScreen.storyboard */; };
+		AA1F1AF42D42E45700D92DE4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AF32D42E45700D92DE4 /* Helper.swift */; };
+		AA1F1AF72D42E5EB00D92DE4 /* VideosListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AF62D42E5EB00D92DE4 /* VideosListViewController.swift */; };
+		AA1F1AFA2D42EAFC00D92DE4 /* WelcoemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AF92D42EAFC00D92DE4 /* WelcoemViewController.swift */; };
+		AA1F1B002D42F21F00D92DE4 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AFC2D42F21F00D92DE4 /* SideMenuTableViewCell.swift */; };
+		AA1F1B012D42F21F00D92DE4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AFD2D42F21F00D92DE4 /* SettingsViewController.swift */; };
+		AA1F1B022D42F21F00D92DE4 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AFE2D42F21F00D92DE4 /* AboutUsViewController.swift */; };
+		AA1F1B032D42F21F00D92DE4 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F1AFF2D42F21F00D92DE4 /* FeedbackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1F1ADB2D42D21D00D92DE4 /* BackPlay Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackPlay Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1F1ADE2D42D21D00D92DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA1F1AE02D42D21D00D92DE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA1F1AE22D42D21D00D92DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA1F1AE52D42D21D00D92DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA1F1AE72D42D21F00D92DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1F1AEA2D42D21F00D92DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA1F1AEC2D42D21F00D92DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1F1AF32D42E45700D92DE4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AA1F1AF62D42E5EB00D92DE4 /* VideosListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListViewController.swift; sourceTree = "<group>"; };
+		AA1F1AF92D42EAFC00D92DE4 /* WelcoemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcoemViewController.swift; sourceTree = "<group>"; };
+		AA1F1AFC2D42F21F00D92DE4 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		AA1F1AFD2D42F21F00D92DE4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AA1F1AFE2D42F21F00D92DE4 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		AA1F1AFF2D42F21F00D92DE4 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1F1AD82D42D21D00D92DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1F1AD22D42D21D00D92DE4 = {
+			isa = PBXGroup;
+			children = (
+				AA1F1ADD2D42D21D00D92DE4 /* BackPlay Flow */,
+				AA1F1ADC2D42D21D00D92DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1F1ADC2D42D21D00D92DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F1ADB2D42D21D00D92DE4 /* BackPlay Flow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1F1ADD2D42D21D00D92DE4 /* BackPlay Flow */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F1AFB2D42F1F700D92DE4 /* Settings */,
+				AA1F1AF82D42EAED00D92DE4 /* Welcome */,
+				AA1F1AF52D42E5DC00D92DE4 /* VideosList */,
+				AA1F1AF22D42E43300D92DE4 /* Helper */,
+				AA1F1ADE2D42D21D00D92DE4 /* AppDelegate.swift */,
+				AA1F1AE02D42D21D00D92DE4 /* SceneDelegate.swift */,
+				AA1F1AE22D42D21D00D92DE4 /* ViewController.swift */,
+				AA1F1AE42D42D21D00D92DE4 /* Main.storyboard */,
+				AA1F1AE72D42D21F00D92DE4 /* Assets.xcassets */,
+				AA1F1AE92D42D21F00D92DE4 /* LaunchScreen.storyboard */,
+				AA1F1AEC2D42D21F00D92DE4 /* Info.plist */,
+			);
+			path = "BackPlay Flow";
+			sourceTree = "<group>";
+		};
+		AA1F1AF22D42E43300D92DE4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F1AF32D42E45700D92DE4 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AA1F1AF52D42E5DC00D92DE4 /* VideosList */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F1AF62D42E5EB00D92DE4 /* VideosListViewController.swift */,
+			);
+			path = VideosList;
+			sourceTree = "<group>";
+		};
+		AA1F1AF82D42EAED00D92DE4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F1AF92D42EAFC00D92DE4 /* WelcoemViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		AA1F1AFB2D42F1F700D92DE4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F1AFE2D42F21F00D92DE4 /* AboutUsViewController.swift */,
+				AA1F1AFF2D42F21F00D92DE4 /* FeedbackViewController.swift */,
+				AA1F1AFD2D42F21F00D92DE4 /* SettingsViewController.swift */,
+				AA1F1AFC2D42F21F00D92DE4 /* SideMenuTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1F1ADA2D42D21D00D92DE4 /* BackPlay Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1F1AEF2D42D21F00D92DE4 /* Build configuration list for PBXNativeTarget "BackPlay Flow" */;
+			buildPhases = (
+				AA1F1AD72D42D21D00D92DE4 /* Sources */,
+				AA1F1AD82D42D21D00D92DE4 /* Frameworks */,
+				AA1F1AD92D42D21D00D92DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackPlay Flow";
+			productName = "BackPlay Flow";
+			productReference = AA1F1ADB2D42D21D00D92DE4 /* BackPlay Flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1F1AD32D42D21D00D92DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AA1F1ADA2D42D21D00D92DE4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AA1F1AD62D42D21D00D92DE4 /* Build configuration list for PBXProject "BackPlay Flow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1F1AD22D42D21D00D92DE4;
+			productRefGroup = AA1F1ADC2D42D21D00D92DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1F1ADA2D42D21D00D92DE4 /* BackPlay Flow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1F1AD92D42D21D00D92DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1F1AEB2D42D21F00D92DE4 /* LaunchScreen.storyboard in Resources */,
+				AA1F1AE82D42D21F00D92DE4 /* Assets.xcassets in Resources */,
+				AA1F1AE62D42D21D00D92DE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1F1AD72D42D21D00D92DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1F1AE32D42D21D00D92DE4 /* ViewController.swift in Sources */,
+				AA1F1B022D42F21F00D92DE4 /* AboutUsViewController.swift in Sources */,
+				AA1F1ADF2D42D21D00D92DE4 /* AppDelegate.swift in Sources */,
+				AA1F1B032D42F21F00D92DE4 /* FeedbackViewController.swift in Sources */,
+				AA1F1AE12D42D21D00D92DE4 /* SceneDelegate.swift in Sources */,
+				AA1F1AF72D42E5EB00D92DE4 /* VideosListViewController.swift in Sources */,
+				AA1F1B002D42F21F00D92DE4 /* SideMenuTableViewCell.swift in Sources */,
+				AA1F1AF42D42E45700D92DE4 /* Helper.swift in Sources */,
+				AA1F1AFA2D42EAFC00D92DE4 /* WelcoemViewController.swift in Sources */,
+				AA1F1B012D42F21F00D92DE4 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA1F1AE42D42D21D00D92DE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1F1AE52D42D21D00D92DE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA1F1AE92D42D21F00D92DE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1F1AEA2D42D21F00D92DE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1F1AED2D42D21F00D92DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA1F1AEE2D42D21F00D92DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA1F1AF02D42D21F00D92DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BackPlay Flow/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BackPlay Flow requires access to your photo library to let you choose images and videos for a personalized music experience. This access enables you to seamlessly integrate your favorite media files into your sessions, making them more interactive and tailored to your preferences. Your privacy is our priority, and your media files will be used solely for this purpose.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BackPlay Flow requires access to your photo library to let you choose images and videos for a personalized music experience. This access enables you to seamlessly integrate your favorite media files into your sessions, making them more interactive and tailored to your preferences. Your privacy is our priority, and your media files will be used solely for this purpose.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BackPlay-Flow.sm1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES;
+			};
+			name = Debug;
+		};
+		AA1F1AF12D42D21F00D92DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6CNSJ2QK9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BackPlay Flow/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BackPlay Flow requires access to your photo library to let you choose images and videos for a personalized music experience. This access enables you to seamlessly integrate your favorite media files into your sessions, making them more interactive and tailored to your preferences. Your privacy is our priority, and your media files will be used solely for this purpose.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BackPlay Flow requires access to your photo library to let you choose images and videos for a personalized music experience. This access enables you to seamlessly integrate your favorite media files into your sessions, making them more interactive and tailored to your preferences. Your privacy is our priority, and your media files will be used solely for this purpose.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BackPlay-Flow.sm1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1F1AD62D42D21D00D92DE4 /* Build configuration list for PBXProject "BackPlay Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1F1AED2D42D21F00D92DE4 /* Debug */,
+				AA1F1AEE2D42D21F00D92DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1F1AEF2D42D21F00D92DE4 /* Build configuration list for PBXNativeTarget "BackPlay Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1F1AF02D42D21F00D92DE4 /* Debug */,
+				AA1F1AF12D42D21F00D92DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1F1AD32D42D21D00D92DE4 /* Project object */;
+}
